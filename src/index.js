@@ -1,4 +1,5 @@
 import './style.css';
+import { Layer } from './Layer';
 
 console.log('funguju!');
 
@@ -37,3 +38,11 @@ buttonElm.addEventListener('click', () => {
     ordered = false;
   }
 });
+
+const cafe = {
+  color: '#feeeca',
+  label: 'mléčná pěna',
+};
+
+const drinkElm = document.querySelector('.drink__product');
+drinkElm.innerHTML += Layer();
