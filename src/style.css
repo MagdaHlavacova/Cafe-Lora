@@ -244,12 +244,26 @@ nav a:hover {
 .gallery {
   padding-top: 0;
   height: 100vh;
+  display: flex;
 
   color: white;
   background-image: url('./img/gallery.jpg');
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
+}
+
+.interier {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  align-content: center;
+  background-color: rgb(128, 0, 0, 0.4);
+  max-width: 50%;
+  max-height: 30%;
+  margin: 2rem;
+  padding: 3rem;
 }
 
 .contacts {
